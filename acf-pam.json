@@ -1,0 +1,1298 @@
+[
+    {
+        "key": "group_6019ea5f0d3ae",
+        "title": "About",
+        "fields": [
+            {
+                "key": "field_6019ea7582fb5",
+                "label": "Slide About",
+                "name": "slide_about",
+                "type": "acf_smartslider3",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "1923"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5faba11c00a71",
+        "title": "Área Comum",
+        "fields": [
+            {
+                "key": "field_5faba138ba15f",
+                "label": "Coluna 1",
+                "name": "col_01",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "<i class=\"fa fa-check-square-o\"><\/i> Wifi": "Wifi",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Brinquedoteca": "Brinquedoteca",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Piscina": "Piscina",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Academia": "Academia",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Área de Lazer": "Área de Lazer"
+                },
+                "allow_custom": 1,
+                "save_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5fabb14985ff6",
+                "label": "Coluna 2",
+                "name": "col_02",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "<i class=\"fa fa-check-square-o\"><\/i> Elevador": "Elevador",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Quadra": "Quadra",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Portaria": "Portaria",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Sauna": "Sauna",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Segurança": "Segurança"
+                },
+                "allow_custom": 1,
+                "save_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5faf11875038c",
+                "label": "Coluna 3",
+                "name": "col_03",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "<i class=\"fa fa-check-square-o\"><\/i> Salão de Jogos": "Salão de Jogos",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Churrasqueira": "Churrasqueira",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Aceita Pet": "Aceita Pet",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Salão de festas": "Salão de festas",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Ar Condicionado": "Ar Condicionado"
+                },
+                "allow_custom": 1,
+                "save_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "properties"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5fb6b2a9cf5cd",
+        "title": "Área Privativa",
+        "fields": [
+            {
+                "key": "field_5fb5642550c8b",
+                "label": "Coluna 1",
+                "name": "cond_1",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "<i class=\"fa fa-check-square-o\"><\/i> Vagas": "Vagas",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Interfone": "Interfone"
+                },
+                "allow_custom": 1,
+                "save_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5fb5666b7922f",
+                "label": "Coluna 2",
+                "name": "cond_2",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "<i class=\"fa fa-check-square-o\"><\/i> Suíte": "Suíte",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Área de Serviço": "Área de Serviço"
+                },
+                "allow_custom": 1,
+                "save_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5fb56a49f963d",
+                "label": "Coluna 3",
+                "name": "cond_3",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "<i class=\"fa fa-check-square-o\"><\/i> Gás Encanado": "Gás Encanado",
+                    "<i class=\"fa fa-check-square-o\"><\/i> Sacada": "Sacada"
+                },
+                "allow_custom": 1,
+                "save_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "properties"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5fb3fd6787e9f",
+        "title": "Contato",
+        "fields": [
+            {
+                "key": "field_5fb3fd8e6ddd9",
+                "label": "Endereço",
+                "name": "endereco",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fb3fdac6ddda",
+                "label": "Telefone Fixo",
+                "name": "telefone",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fe91c693fa9f",
+                "label": "Telefone Celular",
+                "name": "telefone_celular",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fb3fdc36dddb",
+                "label": "E-Mail",
+                "name": "e-mail",
+                "type": "email",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_5fb3fdcb6dddc",
+                "label": "Website",
+                "name": "website",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "25",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5fb3ff9fedf7c",
+                "label": "Mapa",
+                "name": "mapa",
+                "type": "textarea",
+                "instructions": "\/* Acesse o site: https:\/\/www.google.com.br\/maps\/ *\/",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 4,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "7"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5fa80f4fc876e",
+        "title": "Informações Básicas",
+        "fields": [
+            {
+                "key": "field_5fa80f70d42df",
+                "label": "Creci Número",
+                "name": "creci_numero",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Creci: 123.456",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa80f8ad42e0",
+                "label": "Telefone Celular",
+                "name": "telefone_celular",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "11-9XXXX-1XXXX",
+                "placeholder": "",
+                "prepend": "C",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa80fa1d42e1",
+                "label": "Telefone Fixo",
+                "name": "telefone_fixo",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "+55 11 2XXX-3XXX",
+                "placeholder": "",
+                "prepend": "F",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa81361ee8a5",
+                "label": "E-Mail",
+                "name": "e-mail",
+                "type": "email",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "40",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "E",
+                "append": ""
+            },
+            {
+                "key": "field_5fa81351ee8a4",
+                "label": "Endereco",
+                "name": "endereco",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": "br"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "corretor"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5fa80ff3d20f0",
+        "title": "Midias Sociais",
+        "fields": [
+            {
+                "key": "field_5fa80ffdccc06",
+                "label": "Facebook",
+                "name": "facebook",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa81010ccc07",
+                "label": "Twitter",
+                "name": "twitter",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa8101dccc08",
+                "label": "Linkedin",
+                "name": "linkedin",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa8102bccc09",
+                "label": "Instagram",
+                "name": "instagram",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "corretor"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "left",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5fa879c139294",
+        "title": "Propriedade",
+        "fields": [
+            {
+                "key": "field_5faf727b8aa5d",
+                "label": "Detalhes",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fe4400b6b5b5",
+                "label": "Responsavel",
+                "name": "responsavel",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Nome do Corretor",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_6001dd4d6d977",
+                "label": "Ano do Imóvel",
+                "name": "ano",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2021,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_5fba2e264b0e0",
+                "label": "Tipo do Imóvel",
+                "name": "tipo_do_imovel",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5fe4400b6b5b5",
+                            "operator": "!=empty"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Venda": "Venda",
+                    "Locação": "Locação"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5faf728e8aa5e",
+                "label": "Valor",
+                "name": "valor",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5fba2e264b0e0",
+                            "operator": "==",
+                            "value": "Venda"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5fba2e264b0e0",
+                            "operator": "==",
+                            "value": "Locação"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "R$ 500.000,00",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5faf731eee74e",
+                "label": "Valor do IPTU",
+                "name": "valor_do_iptu",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5fba2e264b0e0",
+                            "operator": "==",
+                            "value": "Venda"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5fba2e264b0e0",
+                            "operator": "==",
+                            "value": "Venda"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "R$ 400,00",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5faf732cee74f",
+                "label": "Condomínio",
+                "name": "valor_do_condominio",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5fba2e264b0e0",
+                            "operator": "==",
+                            "value": "Venda"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5fba2e264b0e0",
+                            "operator": "==",
+                            "value": "Venda"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "R$ 350,00",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa879d043cc6",
+                "label": "Localização",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fa8c1877a712",
+                "label": "Endereço",
+                "name": "endereco",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "R. Santa Cruz, 2105, 11º, Sl 1117",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa8c1f00609d",
+                "label": "Complemento",
+                "name": "complemento",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa8c2040609e",
+                "label": "Bairro",
+                "name": "bairro",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Santa Cruz",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa8c2e2c5757",
+                "label": "Cidade",
+                "name": "cidade",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "60",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "São Paulo",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa8c30dc5758",
+                "label": "Estado",
+                "name": "estado",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "SP",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fa8c323c5759",
+                "label": "CEP",
+                "name": "cep",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "20",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "00000-000",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fabb5e1da594",
+                "label": "Planta",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fac3ef39f6a0",
+                "label": "Informações Planta",
+                "name": "informacoes_planta",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "sub_fields": [
+                    {
+                        "key": "field_5fac3f659f6a1",
+                        "label": "Área Total",
+                        "name": "area",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "300 m²",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5fc74d8bbaeab",
+                        "label": "Área Construída",
+                        "name": "area_construida",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "287 m²",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5fac3f769f6a2",
+                        "label": "Quartos",
+                        "name": "quartos",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "2 ou 3",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5fac3f8b9f6a3",
+                        "label": "Banheiros",
+                        "name": "banheiros",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 2,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5fac3f939f6a4",
+                        "label": "Garagem",
+                        "name": "garagem",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 1,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5fac56ca51a1d",
+                        "label": "Suites",
+                        "name": "suites",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 1,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5fabb60cda595",
+                "label": "Imagem da Planta",
+                "name": "imagem_da_planta",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium_large",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5fabb82544abf",
+                "label": "Video",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fabb84d44ac0",
+                "label": "Video do Imovel",
+                "name": "video_do_imovel",
+                "type": "oembed",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "width": "",
+                "height": ""
+            },
+            {
+                "key": "field_5fac3d742db4c",
+                "label": "Sliders",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fac3d992db4d",
+                "label": "Slides do Imovel",
+                "name": "slides_do_imovel",
+                "type": "acf_smartslider3",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_5fb1b19a1a4c7",
+                "label": "Mapa",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5fb1b31db4dcf",
+                "label": "Mapa do Imovel",
+                "name": "mapa_do_imovel",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "properties"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "excerpt",
+            "slug",
+            "author",
+            "featured_image"
+        ],
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5fa8365c4101c",
+        "title": "Serviços",
+        "fields": [
+            {
+                "key": "field_5fa8365f7092e",
+                "label": "Icons",
+                "name": "icon_services",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "lnr lnr-home": "Casa",
+                    "lnr lnr-apartment": "Apartamento",
+                    "lnr lnr-lock": "Segurança",
+                    "lnr lnr-alarm": "Alerta",
+                    "lnr lnr-bullhorn": "Chamada",
+                    "flaticon-coins": "Comercial",
+                    "fa fa-newspaper-o": "Novidades"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "servicos"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
